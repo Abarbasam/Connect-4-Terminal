@@ -13,7 +13,7 @@ def makeBoard(length, height, defaulttile):
 #==================================================================
 
 def printBoard(board):
-    print '\n' * 40 # "Only one board will be seen on-screen at once
+    print '\n' * 40 # Only one board will be seen on-screen at once
 
     for i in range(1, len(board[0]) + 1): # Numbering the top of the board 1 - n
         print str(i) + ' ',
